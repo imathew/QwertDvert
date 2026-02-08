@@ -1,0 +1,25 @@
+[package]
+name = "qwertdvert"
+version = "0.1.0"
+edition = "2024"
+description = "QWERTY to Dvorak keyboard remapper for Linux with KDE system tray integration"
+authors = ["QwertDvert Contributors"]
+license = "MIT"
+readme = "README.md"
+
+[[bin]]
+name = "qwertdvert"
+path = "src/bin/daemon.rs"
+
+[[bin]]
+name = "qwertdvert-tray"
+path = "src/bin/tray.rs"
+
+[dependencies]
+evdev = "0.12"
+uinput = "0.1"
+log = "0.4"
+env_logger = "0.10"
+ksni = "0.2"
+signal-hook = "0.3"
+nix = { version = "0.29", features = ["fs", "event", "poll"] }

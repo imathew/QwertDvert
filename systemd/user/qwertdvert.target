@@ -1,0 +1,7 @@
+[Unit]
+Description=QwertDvert (tray + daemon)
+Wants=qwertdvert-daemon.service qwertdvert-tray.service
+After=graphical-session.target
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=QwertDvert
+Comment=QWERTY to Dvorak keyboard remapper
+Exec=systemctl --user start qwertdvert.target
+Icon=input-keyboard
+Terminal=false
+Categories=Utility;System;
+StartupNotify=false
