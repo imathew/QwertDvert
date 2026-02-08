@@ -1,6 +1,8 @@
 # QwertDvert
 
-A QWERTY to Dvorak keyboard remapper for Linux with smart modifier key handling.
+A Qwerty to Dvorak keyboard remapper for Linux with smart modifier key handling to keep Qwerty shortcuts. Makes use of the KDE tray for straightforward quitting.
+
+![QwertDvert tray icon and tooltip](screenshot.png)
 
 ## What It Does
 
